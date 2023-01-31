@@ -10,6 +10,11 @@ body {
     font-size: 1.125rem;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
     width: 1024px;
     min-height: 300px;
@@ -67,6 +72,11 @@ main {
     padding-right: 100px;
 }
 
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
 .herobox2 {
     flex: 1;
 }
@@ -91,10 +101,21 @@ p {
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
+    margin-top: 10px;
 }
 
 .cards i {
     font-size: 100px;
-    padding-top: 30px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
 }
