@@ -48,6 +48,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    border-radius: 12px;
     
 }
 
@@ -118,4 +119,11 @@ p {
     color: #FA4083;
     font-family: 'Playfair Display', serif;
     padding: 11px 25px;
+    border-radius: 0px 500px 500px 0px;
+    
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 10ox;
 }
