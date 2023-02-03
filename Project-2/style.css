@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    
 }
 
 body {
@@ -130,6 +130,11 @@ p {
     
 }
 
+.mybutton:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+}
+
 a.mybutton {
     display: inline-block;
     margin-top: 10ox;
@@ -150,4 +155,28 @@ nav a.mybutton {
 a.navbutton{
     color: white;
     text-decoration: none;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* .tbox :last-child{
+    font-size: .8rem;
+} */
+
+.tbox p:last-of-type {
+    font-size: .8rem;
+    padding-left: 30px;
 }
