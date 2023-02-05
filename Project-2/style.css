@@ -150,6 +150,8 @@ nav a.mybutton {
     border-color: white;
     padding: 11px 25px;
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
 }
 
 a.navbutton{
@@ -180,3 +182,26 @@ a.navbutton{
     font-size: .8rem;
     padding-left: 30px;
 }
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -26px;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 127px;
+    background-color: white;
+}
+
+.dropdown .navbutton a{
+    color: #FA4083;
+}
+
